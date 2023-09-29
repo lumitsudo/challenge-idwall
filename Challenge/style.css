@@ -1,0 +1,157 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    background-image: url(fbi.jpeg);
+}
+h1{
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    color: #ffffff;
+   
+}
+p{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    color: #ffffff;
+}
+
+header h1{
+    font-size: 35px;
+    color: #000000;
+}
+
+.intro {
+    background-color: black;
+    margin: 20px 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+header {
+    background-color: #a1a1a1;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para o formulário */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilos para os resultados da pesquisa */
+#results {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+/* Estilos para os resultados individuais (aqui você pode adicionar estilos específicos) */
+.result {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para texto dentro dos resultados (aqui você pode personalizar conforme necessário) */
+.result p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.containerresultado {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.containerresultado p{
+    color: black;
+}
+/* Estilos para os resultados da pesquisa */
+.result {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para os detalhes dos resultados */
+.result-details {
+    margin-bottom: 10px;
+}
+
+/* Estilos para texto dentro dos resultados */
+.result-details p {
+    margin: 0;
+}
+
+/* Estilos para a ficha limpa */
+.result p strong {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+
+/* Estilos para cores da ficha limpa */
+.result p strong[data-ficha="sim"] {
+    color: #00cc00; /* Verde para ficha limpa */
+}
+
+.result p strong[data-ficha="nao"] {
+    color: #cc0000; /* Vermelho para ficha suja */
+}
